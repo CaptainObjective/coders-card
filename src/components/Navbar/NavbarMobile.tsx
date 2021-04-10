@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 import { Menu as MenuIcon } from 'react-feather';
 import { Box, IconButton, makeStyles, Menu, Typography } from '@material-ui/core';
 import clsx from 'clsx';
+import Image from 'next/image';
 
 import type { NavbarProps } from './Navbar';
 import { renderNavItems } from './renderNavItems';
 
 type NavbarMobileProps = Omit<NavbarProps, 'type' | 'resumeLink'>;
+
+const AVATAR_SIZE = 40;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -20,10 +23,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: 'hidden',
   },
   image: {
-    width: 40,
-    height: 40,
     borderRadius: 8,
-    marginRight: theme.spacing(1),
   },
   menu: {
     padding: 0,
@@ -51,8 +51,16 @@ export const NavbarMobile = ({ className, fullName, image, position, ...props }:
     <>
       <Box {...props} className={clsx(className, classes.root)}>
         <Box display="flex" alignItems="center">
-          <img className={classes.image} src={image} alt={fullName} />
-          <Box>
+          <Image
+            width={AVATAR_SIZE}
+            height={AVATAR_SIZE}
+            className={classes.image}
+            src={image}
+            alt={`${fullName} avatar`}
+            layout="fixed"
+            priority
+          />
+          <Box ml={1}>
             <Typography variant="h5">{fullName}</Typography>
             <Typography variant="subtitle2">{position}</Typography>
           </Box>

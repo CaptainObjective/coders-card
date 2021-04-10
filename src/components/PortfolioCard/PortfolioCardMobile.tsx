@@ -1,6 +1,7 @@
 import React from 'react';
 import { Smartphone } from 'react-feather';
-import { Card, CardActionArea, CardContent, CardMedia, makeStyles, Typography } from '@material-ui/core';
+import { Box, Card, CardActionArea, CardContent, CardMedia, makeStyles, Typography } from '@material-ui/core';
+import Image from 'next/image';
 
 import type { PortfolioCardVariantProps } from './PortfolioCard.types';
 
@@ -17,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
     height: '100%',
   },
   media: {
+    position: 'relative',
     width: '100%',
     minHeight: 152,
     display: 'flex',
@@ -34,6 +36,8 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
   },
   label: {
+    position: 'relative',
+    zIndex: 1,
     display: 'flex',
     alignItems: 'center',
     margin: theme.spacing(1),
@@ -63,7 +67,10 @@ export const PortfolioCardMobile = ({
   return (
     <Card {...props} onClick={onClick} className={`${classes.card} ${className}`}>
       <CardActionArea className={classes.action}>
-        <CardMedia className={classes.media} image={image} title={title}>
+        <CardMedia className={classes.media}>
+          <Box position="absolute" top={0} right={0} bottom={0} left={0}>
+            <Image src={image} alt={title} layout="fill" objectFit="cover" />
+          </Box>
           <Typography className={classes.label} variant="subtitle2">
             <Smartphone className={classes.icon} />
             <span>{label}</span>
@@ -73,11 +80,9 @@ export const PortfolioCardMobile = ({
           <Typography className={classes.title} variant="h4">
             {title}
           </Typography>
-          <Typography
-            className={classes.description}
-            variant="body2"
-            dangerouslySetInnerHTML={{ __html: description }}
-          />
+          <Typography className={classes.description} variant="body2">
+            {description}
+          </Typography>
         </CardContent>
       </CardActionArea>
     </Card>

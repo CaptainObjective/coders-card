@@ -1,9 +1,12 @@
 import React from 'react';
-import { Box, Card, CardContent, CardMedia, makeStyles, Typography } from '@material-ui/core';
+import { Box, Card, CardContent, makeStyles, Typography } from '@material-ui/core';
+import Image from 'next/image';
 
 import type { DetailsCardVariantProps } from './DetailsCard.types';
 import { DetailsItem } from './DetailsItem';
 import { renderSocialMediaIcon } from './renderSocialMediaIcon';
+
+const AVATAR_SIZE = 160;
 
 const useStyles = makeStyles((theme) => ({
   card: {
@@ -18,10 +21,12 @@ const useStyles = makeStyles((theme) => ({
     '& .MuiCardContent-root:last-child': {
       paddingBottom: 0,
     },
+
+    '& > div:first-child': {
+      minWidth: AVATAR_SIZE,
+    },
   },
   avatar: {
-    width: 160,
-    height: 160,
     borderRadius: 16,
   },
   content: {
@@ -85,7 +90,15 @@ export const DetailsCardTablet = ({
 
   return (
     <Card className={classes.card}>
-      <CardMedia className={classes.avatar} image={image} />
+      <Image
+        src={image}
+        alt={`${fullName} avatar`}
+        width={AVATAR_SIZE}
+        height={AVATAR_SIZE}
+        className={classes.avatar}
+        layout="fixed"
+        priority
+      />
       <CardContent className={classes.content}>
         <Typography variant="h1">{fullName}</Typography>
         <Typography variant="subtitle1" className={classes.position}>

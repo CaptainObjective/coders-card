@@ -1,12 +1,15 @@
 import React from 'react';
 import { Download } from 'react-feather';
-import { Box, Card, CardMedia, makeStyles, Typography } from '@material-ui/core';
+import { Box, Card, makeStyles, Typography } from '@material-ui/core';
+import Image from 'next/image';
 
 import { Button } from '@/components/Button';
 
 import type { DetailsCardVariantProps } from './DetailsCard.types';
 import { DetailsItem } from './DetailsItem';
 import { renderSocialMediaIcon } from './renderSocialMediaIcon';
+
+const AVATAR_SIZE = 96;
 
 const useStyles = makeStyles((theme) => ({
   card: {
@@ -111,7 +114,15 @@ export const DetailsCardMobile = ({
     <Card className={classes.card}>
       <Box className={classes.content}>
         <Box className={classes.topSection}>
-          <CardMedia className={classes.avatar} image={image} />
+          <Image
+            src={image}
+            alt={`${fullName} avatar`}
+            width={AVATAR_SIZE}
+            height={AVATAR_SIZE}
+            className={classes.avatar}
+            layout="fixed"
+            priority
+          />
           <Typography className={classes.name} variant="h2">
             {fullName}
           </Typography>

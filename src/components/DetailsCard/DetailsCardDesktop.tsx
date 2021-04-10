@@ -1,12 +1,15 @@
 import React from 'react';
 import { Download } from 'react-feather';
-import { Box, Card, CardContent, CardMedia, makeStyles, Typography } from '@material-ui/core';
+import { Box, Card, CardContent, makeStyles, Typography } from '@material-ui/core';
+import Image from 'next/image';
 
 import { Button } from '@/components/Button';
 
 import type { DetailsCardVariantProps } from './DetailsCard.types';
 import { DetailsItem } from './DetailsItem';
 import { renderSocialMediaIcon } from './renderSocialMediaIcon';
+
+const AVATAR_SIZE = 200;
 
 const useStyles = makeStyles((theme) => ({
   wrapper: {
@@ -31,12 +34,6 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: theme.spacing(11),
   },
   avatar: {
-    position: 'absolute',
-    top: 0,
-    left: '50%',
-    marginLeft: theme.spacing(-12.5),
-    width: 200,
-    height: 200,
     borderRadius: 16,
     boxShadow: theme.shadows[3],
   },
@@ -131,7 +128,17 @@ export const DetailsCardDesktop = ({
   return (
     <Box className={classes.wrapper}>
       <Card className={classes.card}>
-        <CardMedia className={classes.avatar} image={image} />
+        <Box position="absolute" top={0} left={`calc(50% - ${AVATAR_SIZE / 2}px)`}>
+          <Image
+            src={image}
+            alt={`${fullName} avatar`}
+            width={AVATAR_SIZE}
+            height={AVATAR_SIZE}
+            className={classes.avatar}
+            layout="fixed"
+            priority
+          />
+        </Box>
         <CardContent className={classes.content}>
           <Box className={classes.basicInfo}>
             <Box className={classes.name}>

@@ -3,6 +3,7 @@ import { ChevronLeft, ChevronRight, X } from 'react-feather';
 import { Box, Dialog, DialogProps, makeStyles, Typography } from '@material-ui/core';
 import { fade } from '@material-ui/core/styles/colorManipulator';
 import marked from 'marked';
+import Image from 'next/image';
 
 import { Button } from '@/components/Button';
 import { IconButton } from '@/components/IconButton';
@@ -93,7 +94,7 @@ export const PortfolioProjectDialogDesktop = (props: PortfolioProjectDialogVaria
             <ChevronRight size={30} />
           </IconButton>
         </Box>
-        <img className={classes.img} src={props.imageUrl} alt={props.title} />
+        <Image width={600} height={336} className={classes.img} src={props.imageUrl} alt={props.title} />
         <Box bgcolor="background.light" p={4}>
           <Box className={classes.headerTitle}>
             <Typography variant="h2" color="textPrimary">

@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { Smartphone } from 'react-feather';
-import { Card, CardActionArea, CardContent, CardMedia, makeStyles, Typography } from '@material-ui/core';
+import { Card, CardActionArea, CardContent, makeStyles, Typography } from '@material-ui/core';
+import Image from 'next/image';
 
 import type { PortfolioCardVariantProps } from './PortfolioCard.types';
 
 const useStyles = makeStyles((theme) => ({
   card: {
-    width: '100%',
-    height: '100%',
     borderRadius: 8,
     boxShadow: theme.shadows[4],
   },
@@ -16,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
     height: '100%',
   },
-  media: {
+  image: {
     height: '100%',
     width: '100%',
     display: 'flex',
@@ -79,16 +78,14 @@ export const PortfolioCardDesktop = ({
       {...props}
     >
       <CardActionArea className={classes.action}>
-        <CardMedia className={classes.media} image={image} title={title} />
+        <Image width={400} height={224} className={classes.image} src={image} alt={title} layout="fixed" />
         <CardContent style={{ opacity: isHovered ? 0.9 : 0 }} className={classes.overlay}>
           <Typography className={classes.title} variant="h4">
             {title}
           </Typography>
-          <Typography
-            className={classes.description}
-            variant="body2"
-            dangerouslySetInnerHTML={{ __html: description }}
-          />
+          <Typography className={classes.description} variant="body2">
+            {description}
+          </Typography>
           <Typography className={classes.label} variant="subtitle2">
             <span>{label}</span> <Smartphone className={classes.icon} />
           </Typography>

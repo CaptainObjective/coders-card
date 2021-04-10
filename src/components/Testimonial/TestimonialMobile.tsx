@@ -1,7 +1,10 @@
 import React from 'react';
-import { Card, CardContent, CardMedia, makeStyles, Typography } from '@material-ui/core';
+import { Box, Card, CardContent, makeStyles, Typography } from '@material-ui/core';
+import Image from 'next/image';
 
 import type { TestimonialVariantProps } from './Testimonial.types';
+
+const AVATAR_SIZE = 64;
 
 const useStyles = makeStyles((theme) => ({
   card: {
@@ -14,22 +17,14 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-
     height: 64,
+    position: 'relative',
+    zIndex: 1,
   },
-  media: {
-    width: 64,
-    height: 64,
-    borderRadius: 8,
-    zIndex: 2,
-  },
-  overlayMedia: {
-    width: 64,
-    height: 64,
-    filter: 'blur(10px)',
-    opacity: 0.4,
+  image: {
     padding: 0,
     borderRadius: 8,
+    boxShadow: theme.shadows[0],
   },
   overlayBox: {
     padding: 0,
@@ -71,11 +66,16 @@ export const TestimonialMobile = ({
 
   return (
     <Card className={classes.card} {...props}>
-      <CardContent className={classes.overlay}>
-        <CardMedia className={classes.media} image={authorImage}>
-          <CardMedia className={classes.overlayMedia} image={authorImage} />
-        </CardMedia>
-      </CardContent>
+      <Box className={classes.overlay}>
+        <Image
+          className={classes.image}
+          src={authorImage}
+          width={AVATAR_SIZE}
+          height={AVATAR_SIZE}
+          alt={`Testimonial from ${authorName}`}
+          layout="fixed"
+        />
+      </Box>
       <CardContent className={classes.overlayBox}>
         <Typography className={classes.content} variant="body2">
           {content}
