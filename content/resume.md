@@ -8,13 +8,11 @@ workExperience:
       Developing automated tools in VBA"
     companyName: Credit Suisse
 education:
-  - schoolName: Bachelor Degree Warsaw School of Economics
-    course: Managment, sp. Project Managment
-    description: Maecenas eu lobortis ex. Vivamus ultrices tristique libero, non
-      auctor risus pretium nec. In leo neque, mollis eu volutpat eget, sodales
-      ac lacus. Curabitur et ligula tincidunt, ultrices dui a, malesuada est.
-      Cras blandit dignissim suscipit. Integer semper diam mauris, ac efficitur
-      dui hendrerit eget.
-    startDate: 2017-10-01T19:05:57.745Z
-    finishDate: 2020-06-14T22:00:00.000Z
+  - schoolName: Wrocław University of Economics
+    course: Finance and Accounting, Bachelor degree
+    description: "Specialization - Financial markets, •\tMember of student
+      organization “Bankier”, responsible for maintaining website and a Facebook
+      profile of the organization. "
+    startDate: 2014-10-01T21:27:00.000Z
+    finishDate: 2017-05-31T22:00:00.000Z
 ---
