@@ -11,6 +11,10 @@ skills:
     category: Technologies
     icon: uploads/css3.svg
     value: 5
+  - name: SASS
+    category: Technologies
+    icon: uploads/sass.svg
+    value: 5
   - name: JavaScript
     category: Technologies
     icon: uploads/javascript.svg
@@ -27,10 +31,10 @@ skills:
     category: Technologies
     value: 4
     icon: https://cdn.iconscout.com/icon/free/png-512/redux-283024.png
-  - name: SASS
+  - name: Svelte
     category: Technologies
-    icon: uploads/sass.svg
-    value: 5
+    value: 4
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png
   - name: Node.js
     category: Technologies
     icon: uploads/nodejs.svg
@@ -39,6 +43,10 @@ skills:
     category: Technologies
     icon: uploads/express.svg
     value: 5
+  - name: Nest.js
+    category: Technologies
+    icon: https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg
+    value: 4
   - name: MsSQL
     category: Technologies
     value: 3
@@ -73,9 +81,5 @@ skills:
   - name: English (C1)
     category: Other
     value: 4
-  - name: Svelte
-    category: Technologies
-    value: 4
-    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png
 testimonials: []
 ---
