@@ -50,7 +50,7 @@ skills:
   - name: MsSQL
     category: Technologies
     value: 3
-    icon: https://bms.com.pl/wordpress/wp-content/uploads/2015/10/Microsoft-SQL-Server.jpg
+    icon: ""
   - name: MongoDB
     category: Technologies
     icon: uploads/mongodb.svg
@@ -81,5 +81,13 @@ skills:
   - name: English (C1)
     category: Other
     value: 4
+  - name: TeamCity
+    category: Tools
+    value: 3
+    icon: https://upload.wikimedia.org/wikipedia/commons/8/8e/TeamCity_Icon.png
+  - name: Azure DevOps
+    category: Tools
+    icon: https://media-exp1.licdn.com/dms/image/C560BAQGDq_jNWJhTjQ/company-logo_200_200/0/1566324987720?e=2159024400&v=beta&t=LbqW8QVdQChA_BG2DEPJDkjWBNnkwnBNuMiraBdO_ng
+    value: 3
 testimonials: []
 ---
