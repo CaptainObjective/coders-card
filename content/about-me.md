@@ -1,7 +1,11 @@
 ---
-description: Marcin Woś business card page. Full stack developer passionate
-  about delivering end-to-end solutions to clients. In love with JavaScript,
-  proficient in C# and VBA.
+description: >-
+  Fullstack developer passionate about delivering end-to-end solutions. In love
+  with JavaScript, expierienced in C#, and VBA. Always happy to share the
+  knowledge and help others find a place in IT industry. Big fan of hackathons.
+  \
+
+  After hours video games and table tennis enthusiast.
 skills:
   - name: HTML
     category: Technologies
