@@ -4,7 +4,7 @@ workExperience:
     finishDate: 2021-05-05T21:35:43.378Z
     jobName: Software Engineer
     companyName: Capgemini
-    jobDescription: "Responsibilities: •\tDeveloping new features for web
+    jobDescription: "Responsibilities: \\n Developing new features for web
       application using C#, .NET, Sitecore, JavaScript, JQuery, Scss
       •\tMaintenance of existing code, fixing bugs, covering code with
       unit/integration tests"
