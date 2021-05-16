@@ -3,12 +3,12 @@ firstName: Marcin
 lastName: Woś
 avatar: uploads/profilowe.jpg
 position: Fullstack developer
-phone: ""
+phone: "501389578"
 email: marcin.wos@coderscrew.pl
 city: Wroclaw
 country: Poland
 isFreelancer: true
-cv: https://s2.q4cdn.com/175719177/files/doc_presentations/Placeholder-PDF.pdf
+cv: https://drive.google.com/file/d/1fODDOV1VG__otFYsAyuN8XvIJeZlrwbt/view?usp=sharing
 socialMedia:
   twitter: ""
   github: https://github.com/CaptainObjective
