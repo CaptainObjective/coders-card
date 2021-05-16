@@ -8,19 +8,27 @@ workExperience:
       using C#, .NET, Sitecore, JavaScript, JQuery, SCSS. Maintenance of
       existing code, fixing bugs, covering code with unit, integration and  E2E
       tests."
+  - startDate: 2019-09-01T19:52:00.000Z
+    finishDate: 2021-05-16T19:52:52.748Z
+    companyName: CodersCrew
+    jobName: Fullstack developer/Training coordinator
+    jobDescription: Performing tutor role in five editions of CodersCamp (web
+      development bootcamp organized by CodersCrew). Conducting workshops from
+      basics of HTML, CSS, JS and React for internal and external needs.
+      Coordinating series of workshops in “Centrum Innowacji PRZEJŚCIE”
   - startDate: 2018-09-01T21:32:00.000Z
     finishDate: 2019-02-28T22:32:00.000Z
     companyName: DXC
     jobName: Reporting Specialist
-    jobDescription: "Responsibilities: •\tDeveloping tools/applications using React,
-      Node.js, MSSQL •\tPreparing reports related to SLA, BC etc. based on
-      various data sources  •\tAutomating daily tasks with VBA and AHK
-      •\tPerforming maintenance of existing applications"
+    jobDescription: "Responsibilities: Developing tools/applications using React,
+      Node.js, MSSQL. Preparing reports related to SLA, BC etc. based on various
+      data sources. Automating daily tasks with VBA and AHK. Performing
+      maintenance of existing applications"
   - startDate: 2017-08-01T21:27:13.426Z
     finishDate: 2018-07-31T21:27:00.000Z
     jobName: Compliance Academy Intern
     jobDescription: "Compliance Academy – Internship in Trade Surveillance team.
-      Responsibilities: Investigating potential market manipulation on FX,
+      Responsibilities: Investigating potential market manipulation on FX.
       Developing automated tools in VBA"
     companyName: Credit Suisse
 education:
