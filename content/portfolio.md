@@ -18,7 +18,7 @@ projects:
     startDate: 2020-06-30T22:00:00.000Z
     previewImage: uploads/memepoker.png
     label: Desktop
-    role: Technical leader and project coordinator.
+    role: Technical leader, full stack developer and project coordinator.
     previewNote: Web app which helps teams to carry out sprint planning and task estimation
     description: >-
       Web app which helps teams to carry out sprint planning and task
@@ -36,4 +36,31 @@ projects:
       - Express
 
       - SocketIO
+  - finishDate: 2021-04-25T20:27:00.000Z
+    buttons:
+      - icon: code
+        name: Code
+        url: https://github.com/mfrydrychowicz/Skiller
+      - name: App
+        icon: globe
+        url: https://skiller-prod-app.herokuapp.com
+    technologies:
+      - name: Typescript
+      - name: Node
+      - name: Express
+      - name: Socket.io
+      - name: Chakra UI
+      - name: Firebase
+    name: Skiller
+    startDate: 2021-04-23T20:27:00.000Z
+    previewImage: uploads/skiller.gif
+    label: Mobile
+    role: Technical leader, full stack developer and project coordinator.
+    previewNote: Amazing app combining remote work with gamification. –
+      2MD/Coderscrew Hackaton – Winning project
+    description: Amazing app combining remote work with gamification. No more boring
+      workhops or classes. We have brought educational meetings to the next
+      level. Our app is meant for all kinds of remote teams - in schools,
+      universities, corporations, administration and NGOs. So that online
+      meetings increase motivation, productivity and self-being.
 ---
