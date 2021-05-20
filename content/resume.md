@@ -1,6 +1,6 @@
 ---
 workExperience:
-  - startDate: 2021-05-05T21:35:00.676Z
+  - startDate: 2020-03-01T22:35:00.676Z
     finishDate: 2021-05-05T21:35:43.378Z
     jobName: Software Engineer
     companyName: Capgemini
