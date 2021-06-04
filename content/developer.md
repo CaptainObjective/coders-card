@@ -8,7 +8,7 @@ email: marcin.wos@coderscrew.pl
 city: Wroclaw
 country: Poland
 isFreelancer: true
-cv: https://drive.google.com/file/d/1fODDOV1VG__otFYsAyuN8XvIJeZlrwbt/view?usp=sharing
+cv: https://drive.google.com/file/d/1tBJtJSpO-CE1SeeHkWLghYLxyU5yvKHr/view?usp=sharing
 socialMedia:
   twitter: ""
   github: https://github.com/CaptainObjective
