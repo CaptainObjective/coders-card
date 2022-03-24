@@ -1,7 +1,13 @@
 ---
 workExperience:
+  - startDate: 2021-09-01T12:29:34.404Z
+    finishDate: 2022-03-24T13:30:05.115Z
+    jobName: Senior Software Developer
+    companyName: CDQ
+    jobDescription: "Development and maintenance of DQaaS application. Tech stack:
+      Typescript, React, Redux, Node.js, Express.js, MongoDB"
   - startDate: 2020-03-01T22:35:00.676Z
-    finishDate: 2021-05-05T21:35:43.378Z
+    finishDate: 2021-08-31T21:35:43.378Z
     jobName: Software Engineer
     companyName: Capgemini
     jobDescription: "Responsibilities: Developing new features for web application
@@ -31,12 +37,6 @@ workExperience:
       Responsibilities: Investigating potential market manipulation on FX.
       Developing automated tools in VBA"
     companyName: Credit Suisse
-  - startDate: 2021-09-01T12:29:34.404Z
-    finishDate: 2022-03-24T13:30:05.115Z
-    jobName: Senior Software Developer
-    companyName: CDQ
-    jobDescription: "Development and maintenance of DQaaS application. Tech stack:
-      Typescript, React, Redux, Node.js, Express.js, MongoDB"
 education:
   - schoolName: Wrocław University of Economics
     course: Finance and Accounting, Bachelor degree
