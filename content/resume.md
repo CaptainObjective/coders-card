@@ -31,6 +31,12 @@ workExperience:
       Responsibilities: Investigating potential market manipulation on FX.
       Developing automated tools in VBA"
     companyName: Credit Suisse
+  - startDate: 2021-09-01T12:29:34.404Z
+    finishDate: 2022-03-24T13:30:05.115Z
+    jobName: Senior Software Developer
+    companyName: CDQ
+    jobDescription: "Development and maintenance of DQaaS application. Tech stack:
+      Typescript, React, Redux, Node.js, Express.js, MongoDB"
 education:
   - schoolName: Wrocław University of Economics
     course: Finance and Accounting, Bachelor degree
