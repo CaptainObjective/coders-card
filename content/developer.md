@@ -3,7 +3,7 @@ firstName: Marcin
 lastName: Woś
 avatar: uploads/profilowe.jpg
 position: Fullstack developer
-phone: "501389578"
+phone: ""
 email: marcin.wos@coderscrew.pl
 city: Wroclaw
 country: Poland
