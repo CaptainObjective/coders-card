@@ -26,14 +26,14 @@ skills:
   - name: TypeScript
     category: Technologies
     icon: uploads/typescript.svg
-    value: 4
+    value: 5
   - name: React.js
     category: Technologies
     icon: uploads/react.svg
     value: 5
   - name: Redux
     category: Technologies
-    value: 4
+    value: 5
     icon: https://cdn.iconscout.com/icon/free/png-512/redux-283024.png
   - name: Svelte
     category: Technologies
@@ -58,7 +58,7 @@ skills:
   - name: MongoDB
     category: Technologies
     icon: uploads/mongodb.svg
-    value: 3
+    value: 4
   - name: C#
     category: Technologies
     value: 3
@@ -93,5 +93,9 @@ skills:
     category: Tools
     icon: https://media-exp1.licdn.com/dms/image/C560BAQGDq_jNWJhTjQ/company-logo_200_200/0/1566324987720?e=2159024400&v=beta&t=LbqW8QVdQChA_BG2DEPJDkjWBNnkwnBNuMiraBdO_ng
     value: 3
+  - name: Jenkins
+    category: Tools
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/226px-Jenkins_logo.svg.png?20120629215426
+    value: 1
 testimonials: []
 ---
