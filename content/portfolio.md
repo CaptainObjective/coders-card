@@ -89,4 +89,24 @@ projects:
       problems connected with isolation. It's very simple - set your quarantine,
       spend time in a creative way and compete with your friends and other users
       globally. Spread the hope and be the hero that world needs right now!
+  - finishDate: 2022-06-05T07:01:34.403Z
+    buttons:
+      - name: Demo
+        icon: globe
+        url: https://trollslayer.netlify.app
+      - name: Code
+        icon: github
+        url: https://github.com/402-coders/troll-quest
+    technologies:
+      - name: Typescript
+      - name: React
+      - name: Tailwind
+      - name: Firebas
+    name: Troll Slayer
+    startDate: 2022-06-04T07:01:34.371Z
+    previewImage: https://raw.githubusercontent.com/402-coders/troll-quest/main/src/assets/troll/head.png
+    label: Desktop
+    role: L﻿ead developer
+    previewNote: P﻿roject created during Hackathon in Livechat
+    description: P﻿roject created during Hackathon
 ---
