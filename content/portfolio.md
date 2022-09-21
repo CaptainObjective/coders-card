@@ -109,4 +109,27 @@ projects:
     role: L﻿ead developer
     previewNote: P﻿roject created during Hackathon in Livechat
     description: P﻿roject created during Hackathon
+  - finishDate: 2022-09-21T07:10:49.205Z
+    buttons:
+      - name: Demo
+        icon: globe
+        url: https://ekiwok.vercel.app
+      - name: Code
+        icon: github
+        url: https://github.com/402-coders/ekiwok
+    technologies:
+      - name: Next.js
+      - name: Tailwind
+      - name: Nest.js
+      - name: Socket.io
+    name: Ekiwok
+    startDate: 2022-09-21T07:10:49.143Z
+    previewImage: uploads/ekiwok.png
+    label: Desktop
+    role: |-
+      L﻿eader
+
+      B﻿ackend developer
+    previewNote: Charades game but only with emoji :)
+    description: P﻿roject created with group of students during VII edition of CodersCamp
 ---
