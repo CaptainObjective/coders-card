@@ -1,7 +1,7 @@
 ---
 workExperience:
   - startDate: 2021-09-01T12:29:34.404Z
-    finishDate: 2022-09-21T09:48:08.472Z
+    finishDate: 2023-05-03T19:04:30.002Z
     jobName: Senior Software Developer
     companyName: CDQ
     jobDescription: "Development and maintenance of DQaaS application. Tech stack:
